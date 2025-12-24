@@ -1,0 +1,75 @@
+(library
+ (name aoc)
+ (modules parser))
+
+(executable
+ (name day1)
+ (modules day1)
+ (public_name day1)
+ (libraries aoc))
+
+(executable
+ (name day2)
+ (modules day2)
+ (public_name day2)
+ (libraries aoc))
+
+(executable
+ (name day3)
+ (modules day3)
+ (public_name day3)
+ (libraries aoc))
+
+(executable
+ (name day4)
+ (modules day4)
+ (public_name day4)
+ (libraries aoc))
+
+(executable
+ (name day5)
+ (modules day5)
+ (public_name day5)
+ (libraries aoc))
+
+(executable
+ (name day6)
+ (modules day6)
+ (public_name day6)
+ (libraries aoc))
+
+(executable
+ (name day7)
+ (modules day7)
+ (public_name day7)
+ (libraries aoc))
+
+(executable
+ (name day8)
+ (modules day8)
+ (public_name day8)
+ (libraries aoc))
+
+(executable
+ (name day9)
+ (modules day9)
+ (public_name day9)
+ (libraries aoc))
+
+(executable
+ (name day10)
+ (modules day10)
+ (public_name day10)
+ (libraries aoc))
+
+(executable
+  (name day11)
+  (modules day11)
+  (public_name day11)
+  (libraries aoc))
+
+(executable
+  (name day12)
+  (modules day12)
+  (public_name day12)
+  (libraries aoc))
