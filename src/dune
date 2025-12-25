@@ -63,13 +63,13 @@
  (libraries aoc))
 
 (executable
-  (name day11)
-  (modules day11)
-  (public_name day11)
-  (libraries aoc))
+ (name day11)
+ (modules day11)
+ (public_name day11)
+ (libraries aoc))
 
 (executable
-  (name day12)
-  (modules day12)
-  (public_name day12)
-  (libraries aoc))
+ (name day12)
+ (modules day12)
+ (public_name day12)
+ (libraries aoc))

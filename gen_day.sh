@@ -22,10 +22,10 @@ fi
 cat <<EOF >> "$DUNE_FILE"
 
 (executable
-  (name day${DAY_NUM})
-  (modules day${DAY_NUM})
-  (public_name day${DAY_NUM})
-  (libraries aoc))
+ (name day${DAY_NUM})
+ (modules day${DAY_NUM})
+ (public_name day${DAY_NUM})
+ (libraries aoc))
 EOF
 
 echo "Appended configuration to $DUNE_FILE"
@@ -38,8 +38,7 @@ let part1 lines =
 
 let part2 lines =
 
-let () =
-  Printf.printf "Part 1: %d\nPart 2: %d\n" (part1 lines) (part2 lines)
+let () = Printf.printf "Part 1: %d\nPart 2: %d\n" (part1 lines) (part2 lines)
 EOF
 
 echo "Created $ML_FILE"
